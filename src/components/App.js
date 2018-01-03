@@ -5,7 +5,15 @@ class App extends Component {
     render() {
         return (
             <div className="app">
-                <NavBar/>
+                <div className="head">
+                    <div className="logo">
+                        <h1>The Crypto Savages</h1>
+                        <h5>Cryptos Made Simple</h5>
+                    </div>
+                    <NavBar/>
+
+                </div>
+
                 {this.props.children}
             </div>
         )

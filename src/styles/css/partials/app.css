@@ -1,0 +1,9 @@
+.app .head {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline; }
+  .app .head .logo h1 {
+    width: 400px;
+    margin-bottom: -5px; }
+
+/*# sourceMappingURL=app.css.map */

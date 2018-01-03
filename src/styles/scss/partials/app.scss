@@ -1,0 +1,15 @@
+.app {
+  .head {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    .logo {
+      h1 {
+        width: 400px;
+        margin-bottom: -5px;
+      }
+      h5 {
+      }
+    }
+  }
+}

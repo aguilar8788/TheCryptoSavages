@@ -33,15 +33,4 @@
       margin-top: 20px;
       left: 86.5%; }
 
-.app .head {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline; }
-  .app .head .logo h1 {
-    width: 400px;
-    margin-bottom: -5px; }
-
-.jumbotron {
-  background-size: cover; }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=navBar.css.map */
