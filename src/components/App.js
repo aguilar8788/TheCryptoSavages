@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react'
+import {Link, IndexLink} from 'react-router'
 import  NavBar from './common/navBar/component/NavBar'
 
 class App extends Component {
@@ -6,12 +7,7 @@ class App extends Component {
         return (
             <div className="app">
                 <div className="head">
-                    <div className="logo">
-                        <h1>The Crypto Savages</h1>
-                        <h5>Cryptos Made Simple</h5>
-                    </div>
-                    <NavBar/>
-
+                    <NavBar />
                 </div>
 
                 {this.props.children}

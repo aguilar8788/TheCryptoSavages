@@ -20,14 +20,18 @@ class NavBar extends Component {
 
     render () {
         return (
-            <nav className="navigation">
+            <nav className="navigation navbar fixed-top">
+                <div className="logo">
+                    <IndexLink className="logoLink" to="/" activeClassName="active"><h1>The Crypto Savages</h1></IndexLink>
+                    <IndexLink className="logoLink" to="/" activeClassName="active"><h5>Cryptos Made Simple</h5></IndexLink>
+                </div>
                 <ul>
                     <li><IndexLink to="/data" activeClassName="active">Data</IndexLink></li>
-                    <li><IndexLink to="/crypto" activeClassName="active">Top Crypto</IndexLink></li>
+                    <li><IndexLink to="/crypto" activeClassName="active">Crypto</IndexLink></li>
                     <li><IndexLink to="/blockchain" activeClassName="active">Blockchain</IndexLink></li>
-                    <li><IndexLink to="/exchanges" activeClassName="active">Recommended Exchanges</IndexLink></li>
-                    <li><IndexLink to="/discussion" activeClassName="active">Market Discussions</IndexLink></li>
-                    <li><IndexLink to="/contact" activeClassName="active">Contact Us</IndexLink></li>
+                    <li><IndexLink to="/exchanges" activeClassName="active">Exchanges</IndexLink></li>
+                    <li><IndexLink to="/discussions" activeClassName="active">Discussions</IndexLink></li>
+                    <li><IndexLink to="/contact" activeClassName="active">Contact</IndexLink></li>
                     <li className="socialDropDown" onClick={this.showSocialDropDown}><a href="#">Social Media</a></li>
                     <ul className="socialMedia" onMouseLeave={this.showSocialDropDown} style={this.state.showSocial  == false ? {display: 'none'} : {display: 'flex'}}>
                         <li><a className="socialBrands" href="#" target="_blank">youtube</a></li>

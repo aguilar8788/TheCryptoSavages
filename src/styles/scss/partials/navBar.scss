@@ -1,9 +1,22 @@
 .navigation {
+  background: none;
   flex-grow: 1;
-  height: 50px;
+  height: 65px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
+  .logo {
+    h1 {
+      width: 400px;
+      margin-bottom: -5px;
+    }
+    h5 {
+    }
+    .logoLink {
+      color: black;
+      text-decoration: none;
+    }
+  }
   li {
     color: red;
   }

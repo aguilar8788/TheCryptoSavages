@@ -1,9 +1,16 @@
 .navigation {
+  background: none;
   flex-grow: 1;
-  height: 50px;
+  height: 65px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end; }
+  justify-content: space-between; }
+  .navigation .logo h1 {
+    width: 400px;
+    margin-bottom: -5px; }
+  .navigation .logo .logoLink {
+    color: black;
+    text-decoration: none; }
   .navigation li {
     color: red; }
   .navigation ul {
@@ -36,12 +43,35 @@
 .app .head {
   display: flex;
   flex-direction: row;
-  align-items: baseline; }
-  .app .head .logo h1 {
-    width: 400px;
-    margin-bottom: -5px; }
+  align-items: baseline;
+  width: 100%; }
 
-.jumbotron {
+.home .section1 {
+  /* The image used */
+  background-image: url("https://newevolutiondesigns.com/images/freebies/city-wallpaper-47.jpg");
+  /* Set a specific height */
+  height: 900px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover; }
+.home .section2 {
+  /* The image used */
+  background-image: url("http://awallpapersimages.com/wp-content/uploads/2016/07/50-Free-HD-City-Wallpapers.jpg");
+  /* Set a specific height */
+  height: 900px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.home .one {
+  display: inline-block;
+  width: 100vw;
+  margin-top: 100px;
+  background-size: cover; }
+.home .jumbotron {
+  background-color: rgba(0, 0, 0, 0.5); }
 
 /*# sourceMappingURL=style.css.map */

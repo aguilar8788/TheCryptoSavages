@@ -1,9 +1,16 @@
 .navigation {
+  background: none;
   flex-grow: 1;
-  height: 50px;
+  height: 65px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end; }
+  justify-content: space-between; }
+  .navigation .logo h1 {
+    width: 400px;
+    margin-bottom: -5px; }
+  .navigation .logo .logoLink {
+    color: black;
+    text-decoration: none; }
   .navigation li {
     color: red; }
   .navigation ul {

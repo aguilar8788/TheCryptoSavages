@@ -1,9 +1,7 @@
 .app .head {
   display: flex;
   flex-direction: row;
-  align-items: baseline; }
-  .app .head .logo h1 {
-    width: 400px;
-    margin-bottom: -5px; }
+  align-items: baseline;
+  width: 100%; }
 
 /*# sourceMappingURL=app.css.map */
